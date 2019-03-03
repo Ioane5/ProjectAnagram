@@ -5,11 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class ProjectAnagram {
 
     public static void main(String[] args) {
         long startTimeNano = System.nanoTime();
-        // Main part of anagram finding
+        // ProjectAnagram part of anagram finding
         List<String> anagrams = findAnagrams(args[0], args[1]);
         long endTimeNano = System.nanoTime();
         long runningTimeMicro = (endTimeNano - startTimeNano) / 1000;
